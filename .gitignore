@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Runtime data (created when the app runs)
+backend/cloudvault.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Node
+node_modules/
+frontend/dist/
+
+# Env / OS
+.env
+.env.local
+.DS_Store
